@@ -1,7 +1,7 @@
 <?php
 $info = "";
 if (isset($_POST['aktion'])) {
-  for ($i=1; $i < $_POST['counts']; $i++) { 
+	for ($i=1; $i < $_POST['counts']; $i++) { 
 		shell_exec('gpio write 15 1');
 		usleep($_POST['rate']);
 		shell_exec('gpio write 15 0');
@@ -37,7 +37,7 @@ if (preg_match('/1/', $getbit)) {
 		.clearfix:after{clear:both;}
 		.clearfix{zoom:1;}
 		fieldset {border: 2px solid #222;}
-		input[type="submit"] {border: 2px solid #4FDA2C; background: #222; color: #fff; padding: 3px 5px;}
+		input[type="submit"] { border-radius:4px;border: 2px solid #6D9198; background: #222; color: #fff; padding: 3px 5px;}
 		input[type="submit"]:hover {background: #ccc; color: #222;}
 		input[type="number"] {border: 1px solid #222;}
 
@@ -66,6 +66,6 @@ if (preg_match('/1/', $getbit)) {
 	</form>
 	<div class="clearfix"></div>
 	<br>
-	<?=$info?>	
+	<?=$info?>
 </body>
 </html>
