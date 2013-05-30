@@ -1,4 +1,5 @@
 <?php
+$st = microtime(true);
 // entsprechenden GPIO-Pins auf Ausgabe stellen
 shell_exec('gpio mode 1 out && gpio mode 5 out && gpio mode 6 out && gpio mode 11 out && gpio mode 15 out');
 
@@ -71,6 +72,11 @@ $var .= "LED5: ".shell_exec('gpio read 15')."<br></code>";
 		<input type="submit" name="l4" id="l4" class="button grey" value="LED4">
 		<input type="submit" name="l5" id="l5" class="button grey" value="LED5">
 	</form>
+	<br>
+	<?php
+	$et = microtime(true);
+	echo "<i><small>Skriptladezeit: ".round($et - $st,4)." Sekunden</small></i>";
+	?>
 </body>
 </html>
 
