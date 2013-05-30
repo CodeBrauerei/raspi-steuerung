@@ -15,21 +15,30 @@ gpio write 15 0
 while true
 do
 	gpio write 11 1
-	sleep 0.05
+	sleep 0.03
 	gpio write 11 0
 	gpio write 6 1
-	sleep 0.05
+	sleep 0.03
 	gpio write 6 0
 	gpio write 5 1
-	sleep 0.05
+	sleep 0.03
 	gpio write 5 0
 	gpio write 1 1
-	sleep 0.05
+	sleep 0.03
 	gpio write 1 0
 	gpio write 15 1
-	sleep 0.05
+	sleep 0.03
 	gpio write 15 0
-	sleep 0.05
+	gpio write 1 1
+	sleep 0.03
+	gpio write 1 0
+	gpio write 5 1
+	sleep 0.03
+	gpio write 5 0
+	gpio write 6 1
+	sleep 0.03
+	gpio write 6 0
+	sleep 0.03	
 done
 
 echo "Skript fertig!"
