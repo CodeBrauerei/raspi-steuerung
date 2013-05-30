@@ -7,15 +7,13 @@ Da ich noch wenig Erfahrung mit dem RasPi und insbesondere mit der GPIO habe, gi
 
 
 ## Dateien
-* pinwriter.php - (DEV) jeden Port ein/auslesen und beschreiben
-* test.php - Eine LED an/ausschalten (@GPIO 014) und blinken lassen
-* test2.php - 5 verschiedene LEDs an/ausschalten (@GPIO 07, 025, 024, 018, 014)
-* lauflicht.sh - einfaches Lauflicht (links nach rechts toggeln / gleichen GPIO-Pins)
-* lauflicht2.sh - Lauflicht von links nach rechts und zurück
-
-
+* `pinwriter.php` &rarr; **(DEV)** jeden Port ein/auslesen und beschreiben
+* `test.php` &rarr; Eine LED an/ausschalten `(@GPIO 014)` und blinken lassen
+* `test2.php` &rarr; 5 verschiedene LEDs an/ausschalten & status einlesen `(@GPIO 07, 025, 024, 018, 014)`
+* `lauflicht.sh` &rarr; einfaches Lauflicht (links nach rechts toggeln / gleichen GPIO-Pins)
+* `lauflicht2.sh` &rarr; Lauflicht von links nach rechts und zurück
 
 ## Versuchsaufbau
 ![Versuchsaufbau](http://i.imgur.com/FXN5DiD.png "Versuchsaufbau")
 
-_Achtung: Es handelt sich um ein RasperryPi REV 2.0_
+__Achtung: Es handelt sich um ein RasperryPi REV 2.0__
