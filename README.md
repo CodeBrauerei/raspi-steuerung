@@ -10,7 +10,8 @@ Da ich noch wenig Erfahrung mit dem RasPi und insbesondere mit der GPIO habe, gi
 * pinwriter.php - (DEV) jeden Port ein/auslesen und beschreiben
 * test.php - Eine LED an/ausschalten (@GPIO 014) und blinken lassen
 * test2.php - 5 verschiedene LEDs an/ausschalten (@GPIO 07, 025, 024, 018, 014)
-* lauflicht.sh - Shellscript welches ein einfaches Lauflicht darstellt (gleiche GPIO-Pins)
+* lauflicht.sh - einfaches Lauflicht (links nach rechts toggeln / gleichen GPIO-Pins)
+* lauflicht2.sh - Lauflicht von links nach rechts und zurück
 
 
 
