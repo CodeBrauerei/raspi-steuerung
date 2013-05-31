@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+/* button style from "http://www.joepettersson.com/css3-buttons/" */
+.button {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none !important;
+    font-family: Helvetica, Arial, sans serif;
+    padding: 8px 12px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: inset 0 0 2px #fff;
+}
+
+.button:active {
+    box-shadow: inset 0 0 3px #999;
+}
+
+.grey {
+    color: #444;
+    border: 1px solid #d0d0d0;
+    background-image: -moz-linear-gradient(#ededed, #e1e1e1);
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#e1e1e1), to(#ededed));
+    background-image: -webkit-linear-gradient(#ededed, #e1e1e1);
+    background-image: -o-linear-gradient(#ededed, #e1e1e1);
+    text-shadow: 1px 1px 1px #fff;
+    background-color: #e1e1e1
+}
+
+.grey:hover {
+    border: 1px solid #b0b0b0;
+    background-image: -moz-linear-gradient(#e1e1e1, #ededed);
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#ededed), to(#e1e1e1));
+    background-image: -webkit-linear-gradient(#e1e1e1, #ededed);
+    background-image: -o-linear-gradient(#e1e1e1, #ededed);
+    background-color: #ededed
+}
+
+.grey:active {
+    border: 1px solid #666
+}
+
+.blue {
+    color: #41788c;
+    border: 1px solid #6fb1c7;
+    background-image: -moz-linear-gradient(#aae5f7, #73d0f1);
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#73d0f1), to(#aae5f7));
+    background-image: -webkit-linear-gradient(#aae5f7, #73d0f1);
+    background-image: -o-linear-gradient(#aae5f7, #73d0f1);
+    text-shadow: 1px 1px 1px #bfeafb;
+    background-color: #73d0f1
+}
+
+.blue:hover {
+    border: 1px solid #4690ad;
+    background-image: -moz-linear-gradient(#73d0f1, #aae5f7);
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#aae5f7), to(#73d0f1));
+    background-image: -webkit-linear-gradient(#73d0f1, #aae5f7);
+    background-image: -o-linear-gradient(#73d0f1, #aae5f7);
+    background-color: #aae5f7
+}
+
+.blue:active {
+    border: 1px solid #3b778b
+}
+
+@media only screen and (max-device-width: 480px) {
+    i, small, code {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        height: 200px;
+        font-size: 100px;
+        border-width: 5px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
